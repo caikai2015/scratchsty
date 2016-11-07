@@ -5,6 +5,8 @@
     // Status reporting code
     // Use this to report missing hardware, plugin or unsupported browser
     ext._getStatus = function() {
+
+        console.log(' -- Waiting for  --- ---  --- seconds--');
         return {status: 2, msg: 'Ready'};
     };
 
@@ -20,7 +22,7 @@
             [' ', 'my first block', 'my_first_block'],
         ]
     };
-
+    console.log(' -- tet --');
     // Register the extension
     ScratchExtensions.register('My first extension', descriptor, ext);
 })({});
