@@ -120,11 +120,13 @@
     // Extension API interactions
     var potentialDevices = [];
     ext._deviceConnected = function(dev) {
+
+        console.log(" ---> "+JSON.stringify(dev));
         potentialDevices.push(dev);
 
-        if (!device) {
-            tryNextDevice();
-        }
+        //if (!device) {
+         //   tryNextDevice();
+        //}
     }
 
     var poller = null;
