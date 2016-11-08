@@ -195,5 +195,5 @@
         }/*,
         url: '/info/help/studio/tips/ext/PicoBoard/'*/
     };
-    ScratchExtensions.register('PicoBoard', descriptor, ext, {type: 'serial'});
+    ScratchExtensions.register('', descriptor, ext, {type: 'serial'});
 })({});
