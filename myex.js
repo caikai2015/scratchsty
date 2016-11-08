@@ -192,8 +192,8 @@
             booleanSensor: ['button pressed', 'A connected', 'B connected', 'C connected', 'D connected'],
             sensor: ['slider', 'light', 'sound', 'resistance-A', 'resistance-B', 'resistance-C', 'resistance-D'],
             lessMore: ['>', '<']
-        },
-        url: '/info/help/studio/tips/ext/PicoBoard/'
+        }/*,
+        url: '/info/help/studio/tips/ext/PicoBoard/'*/
     };
     ScratchExtensions.register('PicoBoard', descriptor, ext, {type: 'serial'});
 })({});
