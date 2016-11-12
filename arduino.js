@@ -332,5 +332,6 @@
 				"Half":500,"Quater":250,"Eighth":125,"Whole":1000,"Double":2000,"Zero":0
 		}
     };
-	ScratchExtensions.register('Arduino', descriptor, ext, {type: 'serial'});
+    ScratchExtensions.register('Arduino', descriptor, ext);
+	//ScratchExtensions.register('Arduino', descriptor, ext, {type: 'serial'});
 })({});
